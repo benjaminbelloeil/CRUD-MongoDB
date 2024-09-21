@@ -4,15 +4,9 @@
 //
 //  Created by Benjamin Belloeil on 9/17/24.
 //
+import Foundation
 
-import SwiftUI
-
-struct Enumerators: View {
-    var body: some View {
-        Text(/*@START_MENU_TOKEN@*/"Hello, World!"/*@END_MENU_TOKEN@*/)
-    }
-}
-
-#Preview {
-    Enumerators()
+enum Mode {
+    case add
+    case edit
 }
